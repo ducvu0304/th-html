@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    overflow: scroll;  
+    height: 600px; 
+}
+
+h1 {
+    text-align: center;
+    color: rgb(224, 71, 96);
+}
+
+.content {
+    display: flex;
+
+}
+
+.title {
+    background-color: #db376e;
+    color: #ffffff ;
+    max-width: 80px;
+}
+
+ul  {
+    padding-left: 0;
+    margin-left: 20px; 
+}
+
+li {
+    color: #333;
+}
+
+.footer {
+    background-color: #f9edeb;
+}
+
+a {
+    font-weight: bold;
+    color: blue;
+}

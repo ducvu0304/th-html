@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 20px 0 0 20px;
+    max-width: 600px;
+    max-height: 600px;
+    overflow: scroll;
+    background-image: url(./assets/images/Bai04.jpg);
+    border: 2px solid black;
+    border-bottom: 1px solid rgb(184, 184, 184,0.5);
+    border-right: 1px solid rgb(184, 184, 184,0.5);
+}
+
+h1 {
+    text-align: center;
+    color: #008888;
+    font-weight: 600px;
+}
+
+.p1 {
+    background-color: #339999;
+    font-style: italic; 
+    color: #ffffff;
+}
+
+p {
+    color: #008888;
+    margin-left: 10px;
+    margin-right: 10px;
+}

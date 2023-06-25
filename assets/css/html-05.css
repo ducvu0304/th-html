@@ -1,0 +1,24 @@
+body {
+    max-width: 500px;
+}
+h1 {
+    text-align: center;
+    color: green;
+}
+
+span {
+    color: rgb(230, 43, 43);
+}
+
+div {
+    background-color: #CCC;
+    display: flex;
+    justify-content: center;
+}
+
+pre {
+    background-color: #CCC;
+    color: #0000CC;
+    line-height: 30px;
+    margin: 0;
+}    

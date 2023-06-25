@@ -1,0 +1,40 @@
+ section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    width: 550px;
+
+}
+
+h2 {
+    color: #275c02;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 95%;
+    overflow: scroll;
+    background-color: #e0f9d9;
+}
+
+.text,
+th {
+    text-align: left;
+    max-width: 150px;
+    color: #275c02;
+    font-weight: 500;
+}
+
+.choice {
+    overflow: unset;
+}
+
+.btn {
+    text-align: center;
+}

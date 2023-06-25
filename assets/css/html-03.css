@@ -1,0 +1,24 @@
+    
+    body {
+        margin: 0;
+        padding: 0;
+     }
+
+    main {
+        background-color: #A06D21;
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+ 
+    h1 {
+        text-align: center;
+        color: #FFCC00;
+    }
+    
+    p {
+        color: #ffffff;
+        margin-left: 10px; 
+    }

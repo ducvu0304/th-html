@@ -1,0 +1,49 @@
+ h1 {
+    text-align: center;
+    color: #006600;
+}
+
+h2 {
+    text-decoration-line: underline;
+    color: #0000ff
+}
+
+h3 {
+    background-color: #FECFFD;
+    color: #FF3399;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+.paragraph {
+    background-color: #FFFFCC ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p1, .p2, .p3{
+    font-style: italic;
+    font-weight: 500px;
+}
+
+.p1 {
+    color: #0000FF;
+}
+
+.p2 {
+    color: #c76e3e;
+}
+
+.p3 {
+    color: #006600;
+}
+
+hr {
+    width: 200px;
+}

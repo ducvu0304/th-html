@@ -1,0 +1,61 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    width: 550px;
+
+}
+
+h2 {
+    color: #2d6eaa;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+   width: 95%;
+   overflow: scroll;
+   background-color: #fefbc4;
+}
+
+.text,
+th {
+    text-align: left;
+    max-width: 150px;
+    color: #2d6eaa;
+    font-weight: 500;
+}
+
+.choice {
+    overflow: unset;
+}
+
+.btn {
+    text-align: center;
+}
+
+.number-input {
+    width: 100px;
+}
+fieldset {
+    border: 5px double black #937731 ;
+}
+
+legend {
+    color: #937731;
+}
+
+textarea {
+    overflow: scroll;
+}
+
+.number-guest {
+    position: relative;
+    margin: auto;
+    width: 80%;
+}
