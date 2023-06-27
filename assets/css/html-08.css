@@ -3,6 +3,7 @@ body {
     padding: 0;
 }
 
+/* border: 1px solid và mã màu không có ghi black nha anh  */
 section {
     display: flex;
     max-width:600px;
@@ -12,6 +13,7 @@ section {
     padding-bottom: 20px;
     overflow: scroll
 }
+
 
 img {
     max-width: 300px ;
@@ -26,6 +28,7 @@ h1 {
     font-size: 30px;
 }
 
+/* ở đây cũng vậy lun ko có ghi tên màu dùm em  */
 table, th, td {
     border: 1px solid black;    
     border-collapse: collapse;

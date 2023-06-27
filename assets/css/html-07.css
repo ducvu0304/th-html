@@ -40,6 +40,8 @@ li {
     background-color: #f9edeb;
 }
 
+
+/* ===== ở đây cũng v không được sử dụng bold và tên màu cho 2 thuộc tính này ======= */
 a {
     font-weight: bold;
     color: blue;
