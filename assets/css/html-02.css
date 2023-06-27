@@ -13,12 +13,20 @@ h3 {
     color: #FF3399;
     text-align: center;
 }
-
+/* Không được style css cho div ngang sương như v 
+mún style block nào, tag nào , thẻ nào thì anh Đức đặt class hay id 
+đúng cái block đó, div đó, tag đó vì nếu đặt ngang sương thẻ div như vậy 
+1 trang html biết bao nhiêu thẻ div thì tất cả thẻ div kia cũng bị ăn css của chính 
+thẻ div bên dưới của anh đó !!!!!!!!!!
+LƯU Ý CÁI NÀY KỸ GIÚP EM NHÉ !!!!!
+*/
+/* ======= WARNING ======== */
 div {
     display: flex;
     flex-direction: column;
     max-width: 500px;
 }
+/* ============================ */
 .paragraph {
     background-color: #FFFFCC ;
     text-align: center;

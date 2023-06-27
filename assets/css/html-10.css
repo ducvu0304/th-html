@@ -25,6 +25,8 @@
 }
 /* Table-header */
 
+/* đặt si tên class rồi ko có đặt như hình bên dưới nah anh 
+ */
 .header__title--1 {
     text-align: right;
     font-size: 20px;
@@ -37,7 +39,7 @@
     color: #FF0000;
     background-color: #FFBBBB;
 }
-
+/* ============================================ */
 .header__img {
     width: 10%;
 }
@@ -79,6 +81,10 @@
 
 
 /* Content-block 2 */
+
+
+
+/* đặt tên class css vậy là sai rồi thuộc tính thì ko có --2 nha anh  */
 .content__block--2 {
     display: flex;
     border: none;

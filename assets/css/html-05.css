@@ -1,6 +1,12 @@
 body {
     max-width: 500px;
 }
+
+
+/* anh đức viết css lấy mã màu vui lòng lấy chính xác mã màu ở dạng HEX GIÚP EM 
+------- TUYỆT ĐỐI KHÔNG ĐƯỜNG DÙNG CHỮ ĐỂ KHAI BÁO MÃ MÀU CHO BẤT KÌ MỘT ELEMENT NÀO NHƯ TRƯỜNG 
+HỢP BÊN DƯỚI----------------------" 
+*/
 h1 {
     text-align: center;
     color: green;

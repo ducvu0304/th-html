@@ -8,6 +8,9 @@ main {
     max-width: 600px;
     max-height: 600px;
     overflow: scroll;
+    /* ANH ĐỨC LÀM ƠN KIỂM TRA THẬT KỸ ĐƯỜNG DẪN URL GIÚP EM QUÁ Ư CẨU THẢ KHÔNG LINK ĐƯỢC BACKGROUND DÔ KÌA ANH 
+        ANH XEM LẠI ĐỊNH NGHĨA ĐƯỜNG DẪN TƯƠNG ĐỐI VÀ TUYỆT ĐỐI DÙM EM !!!!!!!!!!!!!!!!!!!
+    */
     background-image: url(./assets/images/Bai04.jpg);
     border: 2px solid black;
     border-bottom: 1px solid rgb(184, 184, 184,0.5);
