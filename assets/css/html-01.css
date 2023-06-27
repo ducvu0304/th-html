@@ -6,10 +6,10 @@ h2 {
     text-decoration-line: underline;
 }
 
-.p1 {
+div p:first-child {
     font-weight: bold;
 }
 
-.p2 {
+div p:last-child {
     text-align: center;
 }
