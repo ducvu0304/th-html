@@ -1,18 +1,60 @@
- h1 {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
     text-align: center;
     color: #006600;
 }
 
-h2 {
+.sub-title {
     text-decoration-line: underline;
-    color: #0000ff
+    color: #0000ff; 
+    margin: 20px 0;
 }
 
-h3 {
+.content {
+    margin-top: 20px;
+}
+
+.content__title {
     background-color: #FECFFD;
     color: #FF3399;
     text-align: center;
 }
+
+.content__paragraph {
+    background-color: #FFFFCC ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.content__paragraph--first,
+.content__paragraph--second,
+.content__paragraph--third {
+    font-weight: 500;
+}
+
+.content__paragraph--first {
+    color: #0000FF;
+}
+
+.content__paragraph--second {
+    color: #aa2c23;
+}
+
+.content__paragraph--third {
+    color: #006600;
+}
+
+.content__paragraph hr {
+    margin: 10px 0;
+    width: 200px;
+}
+
 /* Không được style css cho div ngang sương như v 
 mún style block nào, tag nào , thẻ nào thì anh Đức đặt class hay id 
 đúng cái block đó, div đó, tag đó vì nếu đặt ngang sương thẻ div như vậy 
@@ -21,37 +63,4 @@ thẻ div bên dưới của anh đó !!!!!!!!!!
 LƯU Ý CÁI NÀY KỸ GIÚP EM NHÉ !!!!!
 */
 /* ======= WARNING ======== */
-div {
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
-}
 /* ============================ */
-.paragraph {
-    background-color: #FFFFCC ;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.p1, .p2, .p3{
-    font-style: italic;
-    font-weight: 500px;
-}
-
-.p1 {
-    color: #0000FF;
-}
-
-.p2 {
-    color: #c76e3e;
-}
-
-.p3 {
-    color: #006600;
-}
-
-hr {
-    width: 200px;
-}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Bài 1.12</title>
+    <title>Tạo form và các điều khiển</title>
     <!-- Title sai quá sai. Anh ĐỨC XEM LẠI GIÚP EM YÊU CẦU ĐỀ BÀI 
         YÊU CẦU ĐỀ BÀI GHI RÕ LÀ: 
         SỬ DỤNG THẺ <TITLE> TIÊU ĐỀ CỬA SỔ LÀ : "Tạo form và các điền khiển" MÀ ANH !!!!!!!!!!!1
@@ -20,34 +20,34 @@
             <tr>
                 <th>Họ và tên</th>
                 <td>
-                    <input type="text" name="" id="" placeholder="Name">
+                    <input type="text" name="name" idname value="Nguyễn Ngọc Quỳnh Nga">
                 </td>
             </tr>
             <tr>
                 <th>Địa chỉ</th>
                 <td>
-                    <input type="text" name="" id="" placeholder="Address">
+                    <input type="text" name="address" id="address" value="2Bia Hùng Vương, Q10">
                 </td>
             </tr>
             <tr>
                 <th>Điện thoại</th>
                 <td>
-                    <input type="text" name="" id="" placeholder="Phone">
+                    <input type="text" name="phone" id="phone" value="0909097506">
                 </td>
             </tr>
             <tr>
                 <th>Phái</th>
                 <td>
-                    <input type="radio" name="gender">
-                    <label class="text" for="" name="male">Name</label>
-                    <input type="radio" name="gender">
-                    <label class="text" for="" name=""female>Nữ</label>
+                    <input type="radio" name="gender" id="male">
+                    <label class="text" name="male" for="male">Name</label>
+                    <input type="radio" name="gender" id="female" checked>
+                    <label class="text" name="female" for="female" >Nữ</label>
                 </td>
             </tr>
             <tr>
                 <th>Nghề nghiệp</th>
                 <td>
-                    <select name="Occupation" id="">
+                    <select name="Occupation" id="occupation" >
                         <option value="doctor">Bác sĩ</option>
                         <option value="engineer">Kỹ sư</option>
                         <option value="teacher">Giáo viên</option>
@@ -70,12 +70,17 @@
             <tr>
                 <th>Số người dự đoán tham gia</th>
                 <td>
-                    <input  type="number" name="" id="">
+                    <input  type="number" name="number" id="number" value="250000">
                 </td>
             </tr>
             <tr>
                 <td class="btn" colspan="2" >
-                    <input type="submit" value="Đòng ý">
+                    <input type="submit" value="Đồng ý">
+                </td>
+            </tr>
+            <tr>
+                <td class="btn" colspan="2" >
+                    <p>Bạn đã đăng ký thành công !!!</p>
                 </td>
             </tr>
     

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bài 1.13</title>
+    <title>Tạo form và các điều khiển</title>
     <!-- Title sai quá sai. Anh ĐỨC XEM LẠI GIÚP EM YÊU CẦU ĐỀ BÀI 
         YÊU CẦU ĐỀ BÀI GHI RÕ LÀ: 
         SỬ DỤNG THẺ <TITLE> TIÊU ĐỀ CỬA SỔ LÀ : "TẠO FORM VÀ CÁC ĐIỀU KHIỂN" MÀ ANH !!!!!!!!!!!1
@@ -16,81 +16,101 @@
         <h2>Đăng ký du lịch</h2>
         <table>
             <tr>
-                <th>Họ và tên</th>
                 <td>
-                    <input type="text" name="" id="" placeholder="Name">
+                    <label for="name">Họ và tên</label>
+                </td>
+                <td>
+                    <input type="text" name="name" id="name" value="Phạm Ngọc Cẩm Đào">
                 </td>
             </tr>
             <tr>
-                <th>Địa chỉ</th>
                 <td>
-                    <input type="text" name="" id="" placeholder="Address">
+                    <label for="address">Địa chỉ</label>   
+                </td>
+                <td>
+                    <input type="text" name="address" id="address" value="227 Nguyễn Văn Cừ">
                 </td>
             </tr>
             <tr>
-                <th>Điện thoại</th>
                 <td>
-                    <input type="text" name="" id="" placeholder="Phone">
+                    <label for="phone">Điện thoại</label>
+                </td>
+                <td>
+                    <input type="tel" name="phone" id="phone" value="8351056">
                 </td>
             </tr>
             <tr>
-                <th>Khách Việt Nam</th>
                 <td>
-                    <input type="checkbox" name="isCustomer">
+                    <label>Khách Việt Nam</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="isCustomer" checked>
                 </td>
             </tr>
             <tr>
-                <th>Chọn tour</th>
                 <td>
-                    <select name="" id="">
+                    <label>Chọn tour</label>
+                </td>
+                <td>
+                    <select name="tour" id="tour">
                         <optgroup label="Miền Bắc">
-                            <option value="">Hà Nội - Hạ Long - Sapa</option>
-                            <option value="">Hà Nội - Chùa Hương - Ninh Bình</option>
-                            <option value="">Hà Nội - Cát Bà - Tuần Châu</option>
+                            <option value="sapa">Hà Nội - Hạ Long - Sapa</option>
+                            <option value="ninhbinh">Hà Nội - Chùa Hương - Ninh Bình</option>
+                            <option value="tuanchau">Hà Nội - Cát Bà - Tuần Châu</option>
                         </optgroup>
                         <optgroup label="Miền Trung">
-                            <option value="">Huế - Bạch Mã - Đà Nẵng</option>
-                            <option value="">Nha Trang - Đà Lạt</option>
-                            <option value="">Buôn mê thuột - Gia Lai - Kontum</option>
+                            <option value="danang">Huế - Bạch Mã - Đà Nẵng</option>
+                            <option value="dalat">Nha Trang - Đà Lạt</option>
+                            <option value="kontum">Buôn mê thuột - Gia Lai - Kontum</option>
                         </optgroup>
                         <optgroup label="Miền Nam">
-                            <option value="">TP.HCM - Cần Thơ - Cà Mau</option>
-                            <option value="">TP.HCM - Mỹ Tho</option>
+                            <option value="camau">TP.HCM - Cần Thơ - Cà Mau</option>
+                            <option value="mytho">TP.HCM - Mỹ Tho</option>
                         </optgroup>
                     </select>
                 </td>
             </tr>
             <tr>
-                <th>Phương tiện</th>
+                <td>
+                    <label>Phương tiện</label>
+                </td>
                 <td>
                     <input type="radio" name="vehicle">
                     <label class="text">Máy bay</label>
-                    <input type="radio" name="vehicle">
+                    <input type="radio" name="vehicle" checked>
                     <label class="text">Xe ô tô</label>
                 </td>
             </tr>
             <tr>
                 <td colspan="2">
-                    <form class="number-guest" caction="">
+                    <form>
                         <fieldset>
                             <legend>Số lượng đoàn khách</legend>
-                            <label for="">Người lớn</label>
-                            <input class="number-input" type="number" name="" id="">
-                            <label for="">trẻ em</label>
-                            <input class="number-input" type="number" name="" id="">
+                            <label for="adult">Người lớn</label>
+                            <input class="number-input" type="number" name="adult" id="adult" value="6">
+                            <label for="child">Trẻ em</label>
+                            <input class="number-input" type="number" name="child" id="child" value="4">
                         </fieldset>
                     </form>
                 </td>
             </tr>
             <tr>
-                <th>Ghi chú thêm</th>
                 <td>
-                    <textarea name="" id="" cols="40" rows="2"></textarea>
+                    <label for="">Ghi chú thêm</label>
+                </td>
+                <td>
+                    <textarea cols="30" rows="2" maxlength="20">Có 2 trẻ em dưới 6 tuổi                Có 2 người ăn chay
+                    </textarea>
                 </td>
             </tr>
             <tr>
                 <td class="btn" colspan="2" >
-                    <input type="submit" value="Đòng ý">
+                    <input type="submit" value="Đồng ý">
+                </td>
+            </tr>
+            <tr>
+                <td c colspan="2" >
+                    <p>Bạn đã đăng ký thành công!!!</p>
                 </td>
             </tr>
     

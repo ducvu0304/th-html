@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bài 1.11</title>
+    <title>Tạo form và các điều khiển trên form
+        </title>
     <!-- Title sai quá sai. Anh ĐỨC XEM LẠI GIÚP EM YÊU CẦU ĐỀ BÀI 
         YÊU CẦU ĐỀ BÀI GHI RÕ MÀ.
     -->  
@@ -12,24 +13,24 @@
     <link rel="stylesheet" href="./assets/css/html-11.css">
 </head>
 <body>
-    <form action="">
+    <form id="form-login">
         <h2> Đăng Nhập</h2>
         <table>
             <tr>
                 <td>Mã người dùng</td>
                 <td>
-                    <input type="text" name="" id="" placeholder="Username">
+                    <input type="text" name="username" id="username" value="ptnhung">
                 </td>
             </tr>
             <tr>
                 <td>Mật khẩu</td>
                 <td>
-                    <input type="password" name="" id="" placeholder="Password">
+                    <input type="password" name="password" id="password" value="123456789">
                 </td>
             </tr>
             <tr>
                 <td class="btn" colspan="2">
-                    <input type="submit" value="Đồng ý">
+                    <input class="btn--color" type="submit" value="Đồng ý">
                 </td>
             </tr>
         </table>

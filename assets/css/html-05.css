@@ -1,5 +1,7 @@
-body {
-    max-width: 500px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -7,13 +9,23 @@ body {
 ------- TUYỆT ĐỐI KHÔNG ĐƯỜNG DÙNG CHỮ ĐỂ KHAI BÁO MÃ MÀU CHO BẤT KÌ MỘT ELEMENT NÀO NHƯ TRƯỜNG 
 HỢP BÊN DƯỚI----------------------" 
 */
-h1 {
+
+section {
+    margin: 0 10px;
+}
+h2 {
     text-align: center;
-    color: green;
+    color: #0b553c;
+    margin: 20px 0;
+}
+
+p {
+    font-weight: 300;
 }
 
 span {
     color: rgb(230, 43, 43);
+    font-weight: 600px;
 }
 
 div {
@@ -25,6 +37,5 @@ div {
 pre {
     background-color: #CCC;
     color: #0000CC;
-    line-height: 30px;
-    margin: 0;
+    margin-top: 20px;
 }    

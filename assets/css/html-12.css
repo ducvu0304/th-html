@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid black;
     width: 550px;
 
 }
@@ -37,4 +36,21 @@ th {
 
 .btn {
     text-align: center;
+}
+
+.btn input {
+    background-color: #d7cdc7 ;
+}
+
+p {
+    color: #b93c61;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.choice :nth-child(1), 
+.choice :nth-child(3) {
+    background-color: #0b2268;
+    color: #ffffff  ;
 }

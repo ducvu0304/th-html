@@ -1,97 +1,97 @@
- table, th, td {
-    border: 1px solid #FF0000;
-    border-collapse: collapse;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
+table, th, td {
+    border: 1px solid #FF0000;
+    border-collapse: collapse;
+    
+}
+
+section {
+    margin-top: 10px;
+    margin-left: 50px;
+    border: 1px solid #FF0000;
     width: 800px;
 }
 
-.symbol__square {
-    padding-right: 5px;
-    font-size: 25px;
-    
+table {
+    border-spacing: 0px;
+    width: 800px;
 }
 
-.symbol__circle-black {
-    list-style-type: "\25CF";
-    
-}
-
-.symbol__circle-black li {
-    padding-left: 5px;
-}
-/* Table-header */
-
-/* đặt si tên class rồi ko có đặt như hình bên dưới nah anh 
- */
-.header__title--1 {
-    text-align: right;
-    font-size: 20px;
+.header-top--title {
+    background-color:#FF0000;
     color: #FFFFFF;
-    background-color: #FF0000;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: right;
 }
 
-.header__title--2 {
-    font-size: 28px;
-    color: #FF0000;
+.header-space {
+   height: 10px;
+}
+
+.header-bottom td {
     background-color: #FFBBBB;
-}
-/* ============================================ */
-.header__img {
-    width: 10%;
-}
-
-.table-header__space {
-    font-size: 2px;
-    visibility: hidden; 
-}
-/* End Table-header */
-
-/* Table-content */
-
-.content,
-.content td {
-    border-top-style: none;
+    color: #FF0000;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 800;
 }
 
-/* Content-block 1 */
-.content__block--title{
-    list-style: none;
-    margin-top: 0;
-    padding-left: 0;
+.header-top--img {
+   width: 100px;
+   border-spacing: 0px;
+}
+
+.header-top--img img {
+    position: relative;
+    top: 4px;
 }
 
 
-.content__title {
+.sub-title {
     color: #FF0000 ;
-    font-weight: bold;
+    margin-bottom: 20px;
     font-size: 18px;
+}
+
+.sub-title::before {
+    content: "\25AF";
+    margin-right: 4px;
+    font-weight: 400;
+}
+
+.content-left__list {
+    font-size: 18px;
+    margin-left: 50px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+   
+}
+
+.content-left__list--padding {
+    padding: 20px;
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    border:  none;
+}
+
+.content-right__list {
+    margin-left: 40px;
+}
+
+.content-right__list li:first-child {
+    margin-bottom: 20px;
     
 }
 
-.content__title--first {
-    margin-top: 0;
-    margin-bottom: 18px;
+.content-right__list > li {
+    text-indent: 5px
 }
-
-/* End Content-block 1 */
-
-
-/* Content-block 2 */
-
-
-
-/* đặt tên class css vậy là sai rồi thuộc tính thì ko có --2 nha anh  */
-.content__block--2 {
-    display: flex;
-    border: none;
-}
-
-.paragraph-space{
-    margin-bottom: 18px;
-}
-
-/* End Content-block 2*/

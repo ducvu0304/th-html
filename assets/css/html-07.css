@@ -1,48 +1,44 @@
-body {
+* {
     margin: 0;
     padding: 0;
-}
-
-section {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-    overflow: scroll;  
-    height: 600px; 
-}
-
-h1 {
-    text-align: center;
-    color: rgb(224, 71, 96);
-}
-
-.content {
-    display: flex;
-
+    box-sizing: border-box;
 }
 
 .title {
-    background-color: #db376e;
-    color: #ffffff ;
-    max-width: 80px;
+    text-align: center;
+    color: #e40f64;
+    margin: 20px 0;
 }
 
-ul  {
-    padding-left: 0;
-    margin-left: 20px; 
+.paragraph {
+    display: flex; 
 }
 
-li {
-    color: #333;
+.paragraph__content--intro ul,
+.paragraph__content--contact ul {
+    margin-left: 16px;
+    font-weight: 500;
 }
 
-.footer {
+.paragraph__content--contact-list li:nth-child(2) {
+    ư-space: ;
+}
+
+.paragraph__content--separate {
+    margin: 30px 0;
+}
+
+.paragraph__content--sub-title {
+    background-color: #e40f64;
+    color: #ffffff;
+    width: 70px;
+}
+
+.contact-info {
+    margin-top: 30px;
     background-color: #f9edeb;
 }
 
-
-/* ===== ở đây cũng v không được sử dụng bold và tên màu cho 2 thuộc tính này ======= */
-a {
-    font-weight: bold;
-    color: blue;
+.contact-info span {
+    font-weight: 800;
 }

@@ -1,36 +1,31 @@
-body {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-main {
-    margin: 20px 0 0 20px;
-    max-width: 600px;
-    max-height: 600px;
-    overflow: scroll;
-    /* ANH ĐỨC LÀM ƠN KIỂM TRA THẬT KỸ ĐƯỜNG DẪN URL GIÚP EM QUÁ Ư CẨU THẢ KHÔNG LINK ĐƯỢC BACKGROUND DÔ KÌA ANH 
-        ANH XEM LẠI ĐỊNH NGHĨA ĐƯỜNG DẪN TƯƠNG ĐỐI VÀ TUYỆT ĐỐI DÙM EM !!!!!!!!!!!!!!!!!!!
-    */
-    background-image: url(./assets/images/Bai04.jpg);
-    border: 2px solid black;
-    border-bottom: 1px solid rgb(184, 184, 184,0.5);
-    border-right: 1px solid rgb(184, 184, 184,0.5);
+/* ANH ĐỨC LÀM ƠN KIỂM TRA THẬT KỸ ĐƯỜNG DẪN URL GIÚP EM QUÁ Ư CẨU THẢ KHÔNG LINK ĐƯỢC BACKGROUND DÔ KÌA ANH 
+    ANH XEM LẠI ĐỊNH NGHĨA ĐƯỜNG DẪN TƯƠNG ĐỐI VÀ TUYỆT ĐỐI DÙM EM !!!!!!!!!!!!!!!!!!!
+*/
+.paragraph {
+    background-image: url(../images/Bai04.jpg);
 }
 
-h1 {
+.paragraph__title {
     text-align: center;
     color: #008888;
-    font-weight: 600px;
+    margin: 20px 0;
 }
 
-.p1 {
+.paragraph__text {
+    color: #008888;
+    margin: 20px 10px;
+    line-height: 20px;
+}
+
+.paragraph__text--first {
     background-color: #339999;
     font-style: italic; 
+    font-weight: 600;
     color: #ffffff;
-}
-
-p {
-    color: #008888;
-    margin-left: 10px;
-    margin-right: 10px;
 }

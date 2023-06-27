@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Title -->
-    <title>Bài 1.06</title>
+    <title> Ký tự đặc biệt, chèn hình ảnh, tạo danh sách và liên kết</title>
         <!-- Title sai quá sai. Anh ĐỨC XEM LẠI GIÚP EM YÊU CẦU ĐỀ BÀI 
         YÊU CẦU ĐỀ BÀI GHI RÕ LÀ: 
         SỬ DỤNG THẺ <TITLE> TIÊU ĐỀ CỬA SỔ LÀ : "Ký TỰ ĐẶC BIỆT, CHÈN HÌNH ẢNH, TẠO DANH SÁCH VÀ LIÊN KẾT" MÀ ANH !!!!!!!!!!!1
@@ -16,14 +16,13 @@
     <link rel="stylesheet" href="./assets/css/html-07.css">
 </head>
 <body>
-    <section> 
-    <h1>Công ty Hoa tươi Nhân Ái</h1>
-    <div class="content">
-        <img src="./assets/images/Bai07.gif" alt="">
-        <div>
-            <ol>
-                <li>
-                    <p class="title">Giới thiệu</p>
+    <section class="container"> 
+        <h2 class="title">Công ty Hoa tươi Nhân Ái</h2>
+        <div class="paragraph">
+            <img class="paragraph__img" src="./assets/images/Bai07.gif" alt="Hình-07">
+            <ol class="paragraph__content ">
+                <li class="paragraph__content--intro">
+                    <p class="paragraph__content--sub-title">Giới thiệu</p>
                     <ul style="list-style-type: square;">
                         <li>Thành lập ngày 25/05/2007</li>
                         <li>Chuyên cung cấp các loại hoa tươi</li>
@@ -31,25 +30,21 @@
                         <li>Nhận kết giỏ hoa theo yêu cầu của khách hàng</li>
                     </ul>
                 </li>
-                <hr>
-                <li> 
-                    <p class="title">Liên hệ</p>
-                    <ul style="list-style-type: circle;">
+                <hr class="paragraph__content--separate">
+                <li class="paragraph__content--contact"> 
+                    <p class="paragraph__content--sub-title">Liên hệ</p>
+                    <ul class="paragraph__content--contact-list">
                         <li>Điện thoại: 84-08-8351056</li>
-                        <li>Địa chỉ: 227 Nguyễn Văn Cừ, Quận 5, TP.HCM</li>
+                        <li>Địa chỉ: &nbsp; &nbsp;&nbsp;<i>227 Nguyễn Văn Cừ, Quận 5, TP.HCM</i></li>
                     </ul>
+                    <p class="contact-info">&copy; Copyright: <span><a target="_blank" href="https://csc.edu.vn/">Trung Tâm Tin Học - Đại Học Khoa Học Tự Nhiên TP.HCM</a></span></p>
                 </li>
-            </ol>
-            <p class="footer">© Copyright: <span><a href="">Trung Tâm Tin Học - Đại Học Khoa Học Tự Nhiên TP.HCM</a></span></p>
+            </ol>  
+            </div>
+           
         </div>
-    </div>
-    
     </section>
-    
-    <!-- Footer -->
-    <footer>
-    </footer>
-    <!-- End Footer -->
+
 </body>
 </html>
 <!-- NOTE -->

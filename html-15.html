@@ -3,62 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bài 1.15</title>
+    <title>Tạo iframe</title>
         <!-- Title sai quá sai. Anh ĐỨC XEM LẠI GIÚP EM YÊU CẦU ĐỀ BÀI 
         YÊU CẦU ĐỀ BÀI GHI RÕ LÀ: 
         SỬ DỤNG THẺ <TITLE> TIÊU ĐỀ CỬA SỔ LÀ : "TẠO FORM VÀ CÁC ĐIỀU KHIỂN" MÀ ANH !!!!!!!!!!!1
     -->
     <!-- tại sao bài này lại gom phần css vào trong này làm quá ẩu lun nha anh tách ra file css DÙM EM  -->
     <!-- CSS -->
-    <style>
-        table, th, td {
-            border: 1px solid black;
-        }
-
-        body {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-        }
-
-        table {
-            width: 100%;
-        }
-
-        .header {
-            background-color: #003399;
-        }
-
-        .header-text object {
-            width: 100%;
-            height: 80px;
-        }
-
-        /* Menu list */
-        .main--left {
-            width: 20%;
-        }
-
-        .main-right__content,
-        .main--left__menu-list {
-            display: flex;
-            width: 100%;
-            height: 1000px;
-        }
-
-        .main-right__content {
-            display: flex;
-         
-            align-items: center;
-        }
-
-        .main-right__content iframe {
-            width: 100%;
-            height: 100%;
-        }
-
-        /* End Menu list */
-    </style>
+    <link rel="stylesheet" href="./assets/css/html-15.css">
 
 </head>
 <body>
@@ -67,7 +19,7 @@
             <th class="header-text" colspan="2">
                 <object  data="./Tieude.html" type="text/html"></object>
             </th>
-        </tr>z
+        </tr>
         <tr class="main">
             <td class="main--left">
                 <div class="main--left__menu-list">
@@ -76,7 +28,7 @@
             </td>
             <td class="main-right">
                 <div class="main-right__content">
-                    <iframe frameborder="0" name="content"></iframe>   
+                    <iframe src="./html-01.html" frameborder="0" name="content"></iframe>   
                 </div>
             </td>
         </tr>
